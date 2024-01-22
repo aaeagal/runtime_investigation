@@ -1,0 +1,11 @@
+{
+    "['int[]', 'int']-['Error parsing arguments: For input string: \"[60\"', 'Error parsing arguments: For input string: \"[100\"', 'Error parsing arguments: For input string: \"[50\"', 'Error parsing arguments: For input string: \"[41\"', 'Error parsing arguments: For input string: \"[83\"', 'Error parsing arguments: For input string: \"[68\"', 'Error parsing arguments: For input string: \"[25\"', 'Error parsing arguments: For input string: \"[39\"', 'Error parsing arguments: For input string: \"[89\"', 'Error parsing arguments: For input string: \"[99\"']": [
+        "search",
+        "search2"
+    ],
+    "['int[]']-['50', '87', '9', '21', '33', '84', '10', '89', '59', '18']": [
+        "findMin",
+        "findMin4",
+        "findMin7"
+    ]
+}

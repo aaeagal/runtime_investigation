@@ -1,0 +1,13 @@
+{
+    "['int', 'int', 'int', 'int', 'int', 'int', 'int', 'int']-['454', '-497', '-710', '-2111', '-795', '1050', '-756', '81', '-966', '53']": [
+        "getArea",
+        "getTotalArea",
+        "getAre7a"
+    ],
+    "['double', 'double', 'double', 'double', 'double', 'double', 'double', 'double']-['Error parsing arguments: For input string: \"74.6397013217426\"', 'Error parsing arguments: For input string: \"26.249305257310628\"', 'Error parsing arguments: For input string: \"56.38482773013039\"', 'Error parsing arguments: For input string: \"4.844218135735922\"', 'Error parsing arguments: For input string: \"59.7574683625252\"', 'Error parsing arguments: For input string: \"7.847155235004929\"', 'Error parsing arguments: For input string: \"99.10291273631222\"', 'Error parsing arguments: For input string: \"82.70465859529807\"', 'Error parsing arguments: For input string: \"54.9261699719025\"', 'Error parsing arguments: For input string: \"35.70099030762211\"']": [
+        "getTotalArea3"
+    ],
+    "['int', 'int', 'int', 'int', 'int', 'int', 'int', 'int']-['1042', '497', '710', '2993', '795', '2170', '756', '81', '966', '661']": [
+        "calculateAre4a"
+    ]
+}

@@ -1,4 +1,5 @@
-public class Solution {
+import java.util.Arrays;
+public class minRotatedSortedArray {
     public static int search(int[] nums, int target) {
         int start = 0;
         int end = nums.length - 1;
@@ -104,6 +105,54 @@ public class Solution {
         }
         
         return nums[left];
+    }
+
+    // Main
+    public static void main(String[] args) {
+        if (args.length < 2) {
+            System.out.println("Usage: java minRotatedSortedArray methodName [array] [target]");
+            return;
+        }
+
+        String methodName = args[0];
+        int[] nums;
+        int target;
+
+        // Parse array and target from command-line arguments
+        try {
+            nums = Arrays.stream(args[1].split(","))
+                         .mapToInt(Integer::parseInt)
+                         .toArray();
+
+            if (args.length > 2) {
+                target = Integer.parseInt(args[2]);
+            } else {
+                target = -1; // Default target when not provided
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("Error parsing arguments: " + e.getMessage());
+            return;
+        }
+
+        switch (methodName) {
+            case "search":
+                System.out.println(search(nums, target));
+                break;
+            case "findMin":
+                System.out.println(findMin(nums));
+                break;
+            case "search2":
+                System.out.println(search2(nums, target));
+                break;
+            case "findMin4":
+                System.out.println(findMin4(nums));
+                break;
+            case "findMin7":
+                System.out.println(findMin7(nums));
+                break;
+            default:
+                System.out.println("Method not found: " + methodName);
+        }
     }
 
 }

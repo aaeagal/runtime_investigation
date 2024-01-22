@@ -1,7 +1,6 @@
 import os
 import logging
 import argparse
-import sys
 import json
 import random
 import javalang
@@ -97,7 +96,7 @@ def main():
     file_list = get_file_list(input_path)
     logging.info('File list: {}'.format(file_list))
 
-    # --- Extract methods --- #
+    # --- Extract Input --- #
     logging.info('Extracting input from files')
 
     for file in file_list:
